@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,900');
+
+body{
+    font: 300 40px/1 'Nunito Sans', sans-serif;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1375px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+header{
+	max-width: 1580px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.bm-blood{
+	background: url("../img/blood1.png") no-repeat;
+	padding-left: 307px;
+	display: flex;
+    padding-top: 62px;
+    padding-bottom: 500px;
+}
+
+
+.bm-pisulki{
+	padding-top: 283px;
+    padding-left: 66px;
+}
+
+.bm-pisulki h1{
+    color: #d22425;
+    font-size: 100px;
+    font-weight: 900;
+    margin: 0 0 25px -6px;
+    padding-right: 18px;
+    border-right: 10px solid #333333;
+    display: inline-block;
+    letter-spacing: -0.02em;
+
+}
+
+.bm-pisulki p{
+    color:  #dbdbdb;
+    margin: 0;
+    letter-spacing: -0.02em;
+}
+
+.bm-pisulki-make{
+    color:  #dbdbdb;
+    font-size: 70px;
+}
+
+.bm-pisulki span{
+    color: #333333;
+}
+
+.bm-burger{
+
+}
+
+.bm-scroll{
+    margin-top: 336px;
+    padding-left: 148px;
+    text-align: center;
+    display: block;
+
+}
+
+.bm-scroll a{
+    display: inline-block;
+    border: 3px solid #eeeeee;
+    padding: 1px 15px;
+    border-radius: 50px;
+}
+.bm-scroll svg{
+    margin-bottom: 7px;
+
+}
