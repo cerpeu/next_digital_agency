@@ -171,13 +171,13 @@ a{
 
 .ba-art p{
 	padding-top: 50px;
-	padding-left: 50px;
+	padding-left: 49px;
 	font: 400 17px/1 'Nunito Sans', sans-serif;
 	color:  #8990a0;
 	display: inline-block;
-	width: 510px;
 	line-height: 28px;
 	letter-spacing: -0.005em;
+	min-width: 240px;
 }
 
 .ba-red{
