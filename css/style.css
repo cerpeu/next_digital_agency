@@ -104,6 +104,17 @@ a{
 	margin-left: -5px;
 }
 
+.ba-designs h1::after{
+	content: "";
+	display: inline-block;
+	border-right: 10px solid #323232;
+	padding-left: 18px;
+	height: 90px;
+	margin-bottom: -10px;
+
+
+}
+
 .ba-last-text{
 	font-size: 70px;
 	padding-top: 25px;
