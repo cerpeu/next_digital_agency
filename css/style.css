@@ -180,7 +180,7 @@ a{
 	font-size: 111px;
 }
 
-.ba-art p{
+.ba-paragraph{
 	padding-top: 49px;
 	padding-left: 49px;
 	font: 400 17px/1 'Nunito Sans', sans-serif;
@@ -198,4 +198,67 @@ a{
 
 .ba-red img{
 	box-shadow: 60px 60px #333333;;
+}
+
+.ba-innovative-ideas{
+	position: relative;
+	bottom: 9px;
+	right: 9px;
+}
+
+.ba-text-bg-2{
+	left: -102px;
+}
+
+.ba-innovative-ideas h6{
+	padding-top: 27px;
+	margin-left: 214px;
+	color:  #717171;
+	font: 400 14px/1.45 'Nunito Sans', sans-serif;
+	display: inline-block;
+	max-width: 425px;
+}
+
+.ba-mini-container{
+	padding: 94px 270px 21px 100px;
+	column-count: 2;
+	column-gap: 29px;
+}
+
+.ba-paragraph-2{
+	padding: 0 0 28px 6px;
+	letter-spacing: 0.01em;
+}
+
+.ba-paragraph-letter::first-letter{
+	font-size: 100px;
+	color: #333333;
+	font-weight: 700;
+	margin-left: -8px;
+}
+
+.ba-paragraph-letter{
+	margin-top: -28px;
+}
+
+/*.ba-blood{*/
+	/*position: relative;*/
+	/*background: url("../img/blood.png") no-repeat 100% 100%;*/
+/*}*/
+
+/*.ba-playfair-display-3{*/
+	/*-webkit-transform: rotate(270deg);*/
+/*}*/
+
+.ba-visit-blog{
+	margin-left: 105px;
+	display: inline-block;
+	border: 1px solid #e4e4e4;
+	font-size: 17px;
+	font-weight: 700;
+	padding: 15px 34px 14px;
+}
+
+.ba-visit-blog a{
+	color:  #d22425;
 }
